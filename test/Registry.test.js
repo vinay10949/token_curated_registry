@@ -9,8 +9,8 @@ const EVM_REVERT = 'VM Exception while processing transaction: revert'
 
 contract('Registry', ([executor, proposer, challenger, voter1, voter2, voter3]) => {
 
-    const name = "DApp University"
-    const symbol = "DAPPU"
+    const name = "KARTAVYA"
+    const symbol = "KAR"
     const supply = web3.utils.toWei('1000', 'ether') // 1000 Tokens
     const cost = web3.utils.toWei('100', 'ether')
     const amount = web3.utils.toWei('50', 'ether')
